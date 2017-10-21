@@ -1,0 +1,10 @@
+<jboss-web>
+	<context-root>RestWebService</context-root>
+	<class-loading java2ClassLoadingCompliance='false'>
+		<loader-repository>
+			com.amfam.producerapi:loader=RestWebService.war
+			<loader-repository-config>java2ParentDelegation=false
+			</loader-repository-config>
+		</loader-repository>
+	</class-loading>
+</jboss-web>
